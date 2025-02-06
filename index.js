@@ -1,6 +1,9 @@
 const express = require('express');
+const {request} = require('http');
 const { resolve } = require('path');
+const {config} = require('./static/config')
 
+console.log(config);
 const app = express();
 const port = 3010;
 
